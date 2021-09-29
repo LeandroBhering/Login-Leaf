@@ -9,7 +9,7 @@ function entrar(){
     if ((logintxt.value !== login) && (senhatxt.value !== senha)) {
         window.alert('Login e(ou) senha inválido.')
     } else {
-       window.location.href = "http://www.google.com"
+       window.location.href = "segunda.html"
     }
     
 }
