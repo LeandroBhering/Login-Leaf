@@ -25,13 +25,17 @@ body {
 }
 
 #container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 250px auto;
     width: 300px;
     background-color: #617a06cc;
     padding: 20px 30px;
     border-radius: 10px;
     box-shadow: 0.5px 2px 3px rgba(0, 0, 0, 0.438);
-    /* border: solid 0.1px #C1D911; */
+    border: solid 0.1px #C1D911;
 }
 
 h1 {

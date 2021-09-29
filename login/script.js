@@ -6,10 +6,9 @@ var login = 'leandrobhering'
 var senha = 'senha123'
 
 function entrar(){
-    if ((logintxt.value !== login) && (senhatxt.value !== senha)) {
-        window.alert('Login e(ou) senha inválido.')
+    if ((logintxt.value === login) && (senhatxt.value === senha)){
+        window.location.href = "segunda.html"
     } else {
-       window.location.href = "segunda.html"
+        window.alert('Login e(ou) senha inválido.')
     }
-    
 }
