@@ -82,3 +82,11 @@ p {
     cursor: pointer;
     background-color: var(--cor5);
 }
+
+footer {
+
+    padding: 10px;
+    background-color: #84A60A;
+    text-align: center;
+    font: normal 11pt var(--font4);
+}
